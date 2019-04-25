@@ -50,7 +50,7 @@ external systems such as databases, key-value stores, search indexes, and file s
       
   - ### Check connect status
       ```bash
-        curl ocalhost:8083/connectors/{datagen-users/s3-sink}/status
+        curl http://localhost:8083/connectors/{datagen-users/s3-sink}/status
       ```
       
   - ### Delete s3 sink/random datagen connector
@@ -75,7 +75,7 @@ Copy any file to local to verify with _**avro-tools**_
   java -jar avro-tools.jar tojson some/local/path/filename.avro
 ```
 
-**_avro-tools.jar_** can be downloaded from [here](http://www.us.apache.org/dist/avro/stable/java/avro-tools-1.8.2.jar)
+**_avro-tools.jar_** can be downloaded from [here](http://central.maven.org/maven2/org/apache/avro/avro-tools/1.8.2/avro-tools-1.8.2.jar)
 
 
       
